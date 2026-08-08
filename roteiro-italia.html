@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#14120F">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Itália 2026">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" href="data:image/png;base64,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">
+<title>Roma · Nápoles · Pompeia — 09 a 15 ago 2026</title>
+<style>
+/* ============================================================
+   PALETA — fresco pompeiano: vermelho de Pompeia, amarelo de
+   Nápoles, basalto vulcânico, travertino, bronze oxidado.
+   ============================================================ */
+:root{
+  --basalt:#14120F;
+  --slate:#1F1C18;
+  --slate-2:#2A2621;
+  --line:#39332B;
+  --travertine:#EFE8DA;
+  --muted:#A79C8B;
+  --pompeii:#A32E22;
+  --pompeii-lo:#7B221A;
+  --naples:#E3B23C;
+  --verdigris:#5C8A7B;
+
+  --bg:var(--basalt);
+  --surface:var(--slate);
+  --surface-2:var(--slate-2);
+  --ink:var(--travertine);
+  --ink-dim:var(--muted);
+  --rule:var(--line);
+
+  --display:Georgia,"Iowan Old Style","Times New Roman",serif;
+  --body:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --data:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+
+  --nav-h:64px;
+}
+html[data-theme="light"]{
+  --bg:#F2EDE3;
+  --surface:#FFFDF8;
+  --surface-2:#EAE3D5;
+  --ink:#221E19;
+  --ink-dim:#6B6153;
+  --rule:#D8CFBD;
+  --pompeii:#96271C;
+  --verdigris:#3F6B5C;
+}
+
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0;overscroll-behavior-y:contain}
+body{
+  background:var(--bg);color:var(--ink);
+  font-family:var(--body);font-size:16px;line-height:1.5;
+  padding-bottom:calc(var(--nav-h) + env(safe-area-inset-bottom));
+  -webkit-font-smoothing:antialiased;
+  min-height:100dvh;
+}
+button,input,textarea,select{font:inherit;color:inherit}
+button{background:none;border:0;cursor:pointer}
+a{color:inherit}
+
+/* ---------- CABEÇALHO ---------- */
+.top{
+  position:sticky;top:0;z-index:40;
+  background:linear-gradient(180deg,var(--bg) 72%,transparent);
+  padding:14px 18px 10px;
+  border-bottom:1px solid var(--rule);
+}
+.top-row{display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
+.brand{font-family:var(--display);font-size:19px;line-height:1.15;letter-spacing:.02em}
+.brand span{display:block;font-family:var(--data);font-size:10px;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--ink-dim);margin-bottom:3px}
+.icon-btn{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;
+  border:1px solid var(--rule);background:var(--surface);font-size:16px;flex:none}
+.icon-btn:active{transform:scale(.94)}
+
+/* Contagem regressiva */
+.countdown{
+  margin-top:10px;display:flex;align-items:center;gap:11px;
+  background:var(--surface);border:1px solid var(--rule);
+  border-left:3px solid var(--naples);
+  border-radius:12px;padding:9px 13px;
+}
+.countdown .cd-time{font-family:var(--data);font-size:19px;font-weight:600;
+  letter-spacing:.02em;color:var(--naples);font-variant-numeric:tabular-nums}
+.countdown .cd-txt{font-size:12.5px;line-height:1.3;color:var(--ink-dim);min-width:0}
+.countdown .cd-txt b{display:block;color:var(--ink);font-weight:600;font-size:13.5px;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.countdown.is-late{border-left-color:var(--pompeii)}
+.countdown.is-late .cd-time{color:var(--pompeii)}
+
+/* ---------- ABAS ---------- */
+.view{display:none;padding:18px 18px 30px;animation:in .22s ease}
+.view.active{display:block}
+@keyframes in{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:none}}
+
+/* ---------- SELETOR DE DIAS ---------- */
+.daybar{display:flex;gap:8px;overflow-x:auto;padding:2px 18px 14px;
+  scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.daybar::-webkit-scrollbar{display:none}
+.daychip{flex:none;border:1px solid var(--rule);background:var(--surface);
+  border-radius:12px;padding:8px 12px;text-align:left;min-width:78px}
+.daychip .dc-wd{font-family:var(--data);font-size:9.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ink-dim)}
+.daychip .dc-d{font-family:var(--display);font-size:17px;line-height:1.1;margin-top:2px}
+.daychip .dc-city{font-size:11px;color:var(--ink-dim);margin-top:1px}
+.daychip[aria-selected="true"]{background:var(--pompeii);border-color:var(--pompeii);color:#FFF6EC}
+.daychip[aria-selected="true"] .dc-wd,.daychip[aria-selected="true"] .dc-city{color:#F3D7CB}
+.daychip.is-today::after{content:"";display:block;width:5px;height:5px;border-radius:50%;
+  background:var(--naples);margin-top:5px}
+
+/* ---------- CABEÇALHO DO DIA ---------- */
+.dayhead{margin-bottom:16px}
+.dayhead h2{font-family:var(--display);font-size:25px;margin:0;line-height:1.15;letter-spacing:.01em}
+.dayhead .dh-meta{font-family:var(--data);font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-dim);margin-bottom:5px}
+.progress{margin-top:12px}
+.progress .bar{height:5px;border-radius:99px;background:var(--surface-2);overflow:hidden}
+.progress .bar i{display:block;height:100%;background:var(--verdigris);
+  border-radius:99px;transition:width .35s ease}
+.progress .lbl{display:flex;justify-content:space-between;font-family:var(--data);
+  font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-dim);margin-top:6px}
+
+/* ---------- TRILHA / TIMELINE (elemento-assinatura) ---------- */
+.rail{position:relative;padding-left:56px}
+.rail::before{content:"";position:absolute;left:23px;top:8px;bottom:8px;width:1px;
+  background:linear-gradient(180deg,transparent,var(--rule) 8%,var(--rule) 92%,transparent)}
+
+.stop{position:relative;margin-bottom:14px}
+.stop .marker{position:absolute;left:-56px;top:2px;width:47px;text-align:right}
+.stop .mk-time{font-family:var(--data);font-size:13px;font-weight:600;
+  font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+.stop .mk-dur{font-family:var(--data);font-size:9.5px;color:var(--ink-dim);margin-top:1px}
+.stop .dot{position:absolute;left:-38px;top:6px;width:11px;height:11px;border-radius:50%;
+  background:var(--bg);border:2px solid var(--rule);z-index:2}
+
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:14px;
+  padding:13px 14px;transition:opacity .25s,background .25s}
+.card h3{margin:0;font-family:var(--display);font-size:17.5px;line-height:1.25;
+  font-weight:600;letter-spacing:.005em}
+.card .cat{font-family:var(--data);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--ink-dim);display:flex;align-items:center;gap:6px;margin-bottom:4px}
+.card .loc{font-size:13px;color:var(--ink-dim);margin-top:5px;line-height:1.4}
+.card .note{font-size:13px;margin-top:8px;padding-left:10px;
+  border-left:2px solid var(--rule);color:var(--ink-dim);line-height:1.45}
+.card .note.tip{border-left-color:var(--naples);color:var(--ink)}
+.card .actions{display:flex;gap:8px;margin-top:11px;flex-wrap:wrap}
+
+.btn{border:1px solid var(--rule);background:var(--surface-2);border-radius:10px;
+  padding:9px 13px;font-size:13px;font-weight:600;display:inline-flex;align-items:center;
+  gap:6px;min-height:40px;text-decoration:none}
+.btn:active{transform:scale(.97)}
+.btn.maps{border-color:transparent;background:var(--pompeii);color:#FFF6EC}
+.btn.done{flex:1;justify-content:center}
+.btn.done[aria-pressed="true"]{background:var(--verdigris);border-color:transparent;color:#0E1614}
+.btn.icon-only{padding:0;width:40px;min-width:40px;justify-content:center;flex:none;background:var(--surface-2)}
+
+/* Estados temporais */
+.stop[data-state="past"] .dot{background:var(--rule);border-color:var(--rule)}
+.stop[data-state="past"] .mk-time{color:var(--ink-dim);font-weight:500}
+.stop[data-state="now"] .dot{background:var(--naples);border-color:var(--naples);
+  box-shadow:0 0 0 5px color-mix(in srgb,var(--naples) 22%,transparent)}
+.stop[data-state="now"] .card{border-color:var(--naples)}
+.stop[data-state="now"] .mk-time{color:var(--naples)}
+.stop[data-state="next"] .dot{border-color:var(--naples)}
+.stop[data-state="next"] .card{border-color:color-mix(in srgb,var(--naples) 45%,var(--rule))}
+.stop[data-state="late"] .dot{background:var(--pompeii);border-color:var(--pompeii)}
+.stop[data-state="late"] .card{border-color:var(--pompeii)}
+.stop[data-state="late"] .mk-time{color:var(--pompeii)}
+
+.badge{font-family:var(--data);font-size:9px;letter-spacing:.14em;text-transform:uppercase;
+  padding:3px 7px;border-radius:99px;margin-left:auto;font-weight:600}
+.badge.now{background:var(--naples);color:#1A1405}
+.badge.next{background:transparent;border:1px solid var(--naples);color:var(--naples)}
+.badge.late{background:var(--pompeii);color:#FFF0EA}
+
+/* Concluído — ofuscado mas legível e clicável */
+.stop.is-done .card{opacity:.42;background:var(--surface-2)}
+.stop.is-done .card h3{text-decoration:line-through;text-decoration-thickness:1.5px}
+.stop.is-done .dot{background:var(--verdigris);border-color:var(--verdigris);box-shadow:none}
+.stop.is-done .badge{display:none}
+.stop.is-done .card:focus-within,.stop.is-done .card:hover{opacity:.8}
+
+/* Etiqueta de sugestão a confirmar */
+.sugg{display:inline-block;font-family:var(--data);font-size:9px;letter-spacing:.13em;
+  text-transform:uppercase;border:1px dashed var(--naples);color:var(--naples);
+  border-radius:99px;padding:2px 7px;margin-left:7px;vertical-align:2px}
+
+/* Bloco de deslocamento entre paradas */
+.leg{font-family:var(--data);font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--ink-dim);margin:-6px 0 12px;padding-left:2px;display:flex;align-items:center;gap:7px}
+.leg::before{content:"";width:14px;height:1px;background:var(--rule)}
+
+/* ---------- ANOTAÇÕES ---------- */
+.notes{margin-top:22px}
+.notes label{font-family:var(--data);font-size:10.5px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--ink-dim);display:block;margin-bottom:7px}
+textarea{width:100%;min-height:96px;background:var(--surface);border:1px solid var(--rule);
+  border-radius:12px;padding:12px;resize:vertical;font-size:14.5px;line-height:1.5}
+textarea:focus,input:focus{outline:2px solid var(--naples);outline-offset:1px}
+
+/* ---------- ORÇAMENTO ---------- */
+.total{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--pompeii);
+  border-radius:14px;padding:15px;margin-bottom:18px}
+.total .t-lbl{font-family:var(--data);font-size:10px;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--ink-dim)}
+.total .t-grid{display:flex;gap:26px;margin-top:9px}
+.total .t-val{font-family:var(--display);font-size:27px;line-height:1;font-variant-numeric:tabular-nums}
+.total .t-val small{font-size:13px;color:var(--ink-dim);font-family:var(--data);
+  display:block;letter-spacing:.12em;text-transform:uppercase;margin-top:5px}
+.t-diff{font-family:var(--data);font-size:12px;margin-top:11px;padding-top:11px;
+  border-top:1px solid var(--rule);color:var(--ink-dim)}
+
+.bday{background:var(--surface);border:1px solid var(--rule);border-radius:14px;
+  padding:13px 14px;margin-bottom:11px}
+.bday h4{margin:0 0 10px;font-family:var(--display);font-size:16px;display:flex;
+  justify-content:space-between;align-items:baseline;gap:10px}
+.bday h4 em{font-family:var(--data);font-size:11px;font-style:normal;color:var(--ink-dim);
+  letter-spacing:.1em}
+.brow{display:grid;grid-template-columns:1fr 78px 78px;gap:8px;align-items:center;margin-bottom:7px}
+.brow .bk{font-size:12.5px;color:var(--ink-dim)}
+.brow input{width:100%;background:var(--surface-2);border:1px solid var(--rule);
+  border-radius:9px;padding:8px 9px;font-family:var(--data);font-size:13px;
+  text-align:right;font-variant-numeric:tabular-nums;min-height:38px}
+.bhead{display:grid;grid-template-columns:1fr 78px 78px;gap:8px;font-family:var(--data);
+  font-size:9px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-dim);
+  margin-bottom:7px;text-align:right}
+.bhead span:first-child{text-align:left}
+
+/* ---------- MAPA GERAL ---------- */
+.mapgroup{margin-bottom:24px}
+.mapgroup h4{font-family:var(--display);font-size:19px;margin:0 0 3px}
+.mapgroup .mg-sub{font-family:var(--data);font-size:10px;letter-spacing:.15em;
+  text-transform:uppercase;color:var(--ink-dim);margin-bottom:11px}
+.mlink{display:flex;align-items:center;gap:11px;padding:11px 13px;background:var(--surface);
+  border:1px solid var(--rule);border-radius:11px;margin-bottom:7px;text-decoration:none;
+  min-height:46px}
+.mlink .ml-n{flex:1;font-size:14px;line-height:1.3;min-width:0}
+.mlink .ml-n small{display:block;color:var(--ink-dim);font-size:11.5px;margin-top:1px}
+.mlink .ml-go{font-family:var(--data);font-size:10px;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--pompeii);font-weight:700;flex:none}
+.mlink.is-done{opacity:.4}
+.mlink.is-done .ml-n{text-decoration:line-through}
+
+/* ---------- NAVEGAÇÃO INFERIOR ---------- */
+nav{position:fixed;left:0;right:0;bottom:0;z-index:50;display:grid;
+  grid-template-columns:repeat(4,1fr);
+  background:color-mix(in srgb,var(--bg) 94%,transparent);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border-top:1px solid var(--rule);
+  padding-bottom:env(safe-area-inset-bottom)}
+nav button{height:var(--nav-h);display:flex;flex-direction:column;align-items:center;
+  justify-content:center;gap:3px;color:var(--ink-dim);font-family:var(--data);
+  font-size:9.5px;letter-spacing:.11em;text-transform:uppercase}
+nav button i{font-style:normal;line-height:1;display:flex}
+nav button i svg{width:20px;height:20px}
+nav button[aria-selected="true"]{color:var(--pompeii)}
+html[data-theme="dark"] nav button[aria-selected="true"]{color:var(--naples)}
+
+/* ---------- RODAPÉ DE DADOS ---------- */
+.datafoot{margin-top:26px;padding-top:16px;border-top:1px solid var(--rule);
+  display:flex;gap:9px;flex-wrap:wrap}
+.datafoot .btn{font-size:12px;padding:8px 12px;min-height:36px}
+.datafoot .hint{font-size:11.5px;color:var(--ink-dim);width:100%;margin-top:6px;line-height:1.45}
+
+/* ---------- ÍCONES DE CATEGORIA (SVG, linha, cor herdada) ---------- */
+.cat svg{width:12.5px;height:12.5px;vertical-align:-2.5px;flex:none}
+.icon-btn svg{width:18px;height:18px}
+.btn svg{width:15px;height:15px;flex:none}
+.mlink > span:first-child svg{width:15px;height:15px}
+
+/* ---------- HERO DO DIA (elemento-assinatura) ---------- */
+.dayhero{position:relative;margin:-18px -18px 18px;padding:24px 18px 18px;
+  background:linear-gradient(150deg,var(--surface) 45%,var(--surface-2));
+  border-bottom:1px solid var(--rule);overflow:hidden}
+.dayhero .hero-art{position:absolute;right:-8px;top:-8px;width:128px;height:128px;
+  color:var(--rule);opacity:.6;pointer-events:none}
+html[data-theme="light"] .dayhero .hero-art{opacity:.4}
+.dayhero .dh-inner{position:relative;z-index:1;max-width:78%}
+.dayhero .dh-tag{font-size:13px;color:var(--ink-dim);margin-top:7px;line-height:1.4}
+
+.day-actions{display:flex;gap:8px;margin:-4px 0 18px}
+.day-actions .btn{font-size:12px;padding:8px 12px;min-height:36px;flex:1;justify-content:center}
+
+/* ---------- TRILHA DA VIAGEM (visão geral tocável) ---------- */
+.triptrack{display:flex;gap:6px;margin-bottom:18px}
+.tp-item{flex:1;background:none;border:0;padding:0;display:flex;flex-direction:column;align-items:center}
+.tp-bar{width:100%;height:30px;border-radius:8px;background:var(--surface-2);
+  border:1px solid var(--rule);position:relative;overflow:hidden}
+.tp-bar i{position:absolute;left:0;right:0;bottom:0;background:var(--verdigris);
+  transition:height .3s ease}
+.tp-item.is-today .tp-bar{border-color:var(--naples)}
+.tp-lbl{font-family:var(--data);font-size:9px;letter-spacing:.05em;color:var(--ink-dim);
+  margin-top:5px}
+.tp-item.is-today .tp-lbl{color:var(--naples)}
+
+/* ---------- AVISO / TOAST ---------- */
+.toast{position:fixed;left:50%;bottom:calc(var(--nav-h) + 16px + env(safe-area-inset-bottom));
+  transform:translateX(-50%) translateY(10px);background:var(--ink);color:var(--bg);
+  font-size:12.5px;font-weight:600;padding:10px 18px;border-radius:99px;opacity:0;
+  pointer-events:none;transition:opacity .2s ease,transform .2s ease;z-index:60;
+  white-space:nowrap;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+@media(min-width:720px){
+  body{max-width:760px;margin:0 auto}
+  nav{max-width:760px;margin:0 auto}
+  .rail{padding-left:64px}
+  .rail::before{left:27px}
+  .stop .marker{left:-64px;width:53px}
+  .stop .dot{left:-42px}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="top-row">
+    <div class="brand"><span>09–15 ago 2026</span>Roma · Nápoles · Pompeia</div>
+    <button class="icon-btn" id="themeBtn" title="Alternar tema" aria-label="Alternar tema"></button>
+  </div>
+  <div class="countdown" id="countdown" hidden>
+    <div class="cd-time" id="cdTime">—</div>
+    <div class="cd-txt"><b id="cdName"></b><span id="cdSub"></span></div>
+  </div>
+</header>
+
+<!-- ABA: HOJE -->
+<section class="view active" id="view-hoje" role="tabpanel"></section>
+
+<!-- ABA: ROTEIRO COMPLETO -->
+<section class="view" id="view-roteiro" role="tabpanel">
+  <div class="daybar" id="daybar" role="tablist"></div>
+  <div id="dayContent"></div>
+</section>
+
+<!-- ABA: ORÇAMENTO -->
+<section class="view" id="view-orcamento" role="tabpanel"></section>
+
+<!-- ABA: MAPA GERAL -->
+<section class="view" id="view-mapa" role="tabpanel"></section>
+
+<nav role="tablist">
+  <button data-view="hoje" aria-selected="true"><i></i>Hoje</button>
+  <button data-view="roteiro" aria-selected="false"><i></i>Roteiro</button>
+  <button data-view="orcamento" aria-selected="false"><i></i>Orçamento</button>
+  <button data-view="mapa" aria-selected="false"><i></i>Mapa</button>
+</nav>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ================================================================
+   1. DADOS DO ROTEIRO
+   Editar aqui para alterar o roteiro. Campos por parada:
+     t     horário de início "HH:MM"
+     end   horário de fim (opcional, gera a duração)
+     n     nome
+     cat   categoria (define o ícone)
+     loc   endereço / referência
+     note  observação curta
+     tip   true = observação destacada (reserva, atenção)
+     q     consulta do Google Maps (padrão: nome + cidade)
+     nomap true = não gera botão de mapa (voos, acordar, etc.)
+     sug   true = sugestão minha, a confirmar
+     leg   texto de deslocamento exibido ABAIXO da parada
+   ================================================================ */
+const CITY_Q = {Roma:"Roma, Itália", Nápoles:"Napoli, Italia", Pompeia:"Pompei, Italia", Fiumicino:"Fiumicino, Italia"};
+
+const TRIP = [
+{
+  date:"2026-08-09", wd:"Domingo", city:"Roma", title:"Bordeaux → Roma",
+  sub:"Chegada noturna. Sem passeio.",
+  stops:[
+    {t:"18:55", n:"Voo Bordeaux BOD → Roma Fiumicino FCO", cat:"voo", nomap:true},
+    {t:"21:05", n:"Pouso em Fiumicino (FCO)", cat:"voo", q:"Aeroporto di Roma Fiumicino", loc:"Terminal de chegada"},
+    {t:"21:05", end:"21:45", n:"Desembarque e saída do aeroporto", cat:"transporte", nomap:true,
+      note:"Só bagagem de mão — sem espera de esteira."},
+    {t:"21:50", n:"Leonardo Express FCO → Roma Termini", cat:"transporte", q:"Fiumicino Aeroporto stazione",
+      note:"Direto, 32 min, €14 por pessoa, sai a cada ~15 min.", tip:true, leg:"32 min de trem"},
+    {t:"22:30", n:"Chegada a Roma Termini", cat:"transporte", q:"Roma Termini", leg:"~10 min a pé"},
+    {t:"22:40", n:"Check-in no IL Sole", cat:"hotel", q:"IL Sole Roma Termini",
+      note:"Se ainda estiverem com fome, algo simples perto de Termini. Depois, dormir."}
+  ]
+},
+{
+  date:"2026-08-10", wd:"Segunda", city:"Roma", title:"Roma Imperial",
+  sub:"Coliseu 10h45 · Fórum · Palatino",
+  stops:[
+    {t:"07:30", n:"Café da manhã · Conad City", cat:"mercado", sug:true,
+      q:"Conad City Via Principe Amedeo Roma", loc:"Via Principe Amedeo — ~5 min a pé do IL Sole",
+      note:"Mercado para café, snacks e água do dia inteiro. Confirmar horário de abertura no domingo anterior.", tip:true},
+    {t:"08:15", end:"09:00", n:"Basílica de Santa Maria Maggiore", cat:"igreja",
+      q:"Basilica di Santa Maria Maggiore Roma", loc:"Piazza di Santa Maria Maggiore", leg:"~10 min a pé"},
+    {t:"09:00", end:"09:40", n:"Monti pela Via Cavour", cat:"bairro", q:"Rione Monti Roma",
+      note:"Descer a Via Cavour e cortar pelas ruas de Monti em direção ao Coliseu.", leg:"~20 min a pé"},
+    {t:"09:40", end:"10:15", n:"Coliseu por fora — fotos", cat:"vista", q:"Via Nicola Salvi Roma",
+      note:"Vista da Via Nicola Salvi, fachada principal e Arco de Constantino."},
+    {t:"10:15", n:"Fila de entrada do Coliseu", cat:"marco", q:"Colosseo ingresso Roma",
+      note:"Chegar 15 min antes com documento e ticket em mãos.", tip:true},
+    {t:"10:45", end:"12:00", n:"COLISEU", cat:"marco", q:"Colosseo Roma"},
+    {t:"12:00", end:"12:15", n:"Arco de Constantino", cat:"marco", q:"Arco di Costantino Roma"},
+    {t:"12:20", end:"13:10", n:"Almoço em Monti", cat:"comida", q:"trattoria Rione Monti Roma",
+      note:"Evitar os restaurantes de frente para o Coliseu. Entrar algumas ruas em Monti: carbonara, amatriciana, cacio e pepe, supplì.", leg:"~10 min a pé"},
+    {t:"13:20", end:"16:30", n:"Fórum Romano + Palatino", cat:"marco", q:"Foro Romano Roma",
+      note:"Via Sacra → Arco de Tito → Basílica de Maxêncio → Casa das Vestais → Templo de Antonino e Faustina → Cúria → Templo de Saturno → Palatino → palácios imperiais → Estádio Palatino → mirantes."},
+    {t:"16:40", end:"17:10", n:"Campidoglio", cat:"vista", q:"Piazza del Campidoglio Roma",
+      note:"Piazza del Campidoglio, Cordonata e mirante sobre o Fórum.", leg:"~8 min a pé"},
+    {t:"17:15", end:"17:45", n:"Piazza Venezia + Vittoriano", cat:"marco", q:"Altare della Patria Roma",
+      note:"Exterior e terraços inferiores."},
+    {t:"17:50", end:"18:20", n:"Teatro di Marcello", cat:"marco", q:"Teatro di Marcello Roma", leg:"~6 min a pé"},
+    {t:"18:20", end:"18:50", n:"Gueto Judeu + Pórtico de Otávia", cat:"bairro", q:"Portico d'Ottavia Roma"},
+    {t:"18:50", end:"19:05", n:"Ilha Tiberina", cat:"vista", q:"Isola Tiberina Roma"},
+    {t:"19:15", n:"Retorno em direção ao hotel", cat:"transporte", nomap:true,
+      note:"Jantar simples na região do Esquilino / Termini."},
+    {t:"20:45", end:"21:30", n:"Gelateria Fassi", cat:"comida", q:"Gelateria Fassi Via Principe Eugenio Roma",
+      loc:"Via Principe Eugenio 65–67", note:"Fica perto do hotel e funciona até tarde.", tip:true}
+  ]
+},
+{
+  date:"2026-08-11", wd:"Terça", city:"Roma", title:"Vaticano · Trastevere · Pantheon",
+  sub:"Visita guiada 12h00 · Pantheon 17h00",
+  stops:[
+    {t:"06:45", n:"Sair do IL Sole · Sapori & Dintorni", cat:"mercado", sug:true,
+      q:"Sapori e Dintorni Conad Roma Termini", loc:"Dentro da estação Termini — ~3 min a pé",
+      note:"Abre cedo: pegar água e algo rápido antes do metrô. Depois, Metro A até Ottaviano.", tip:true},
+    {t:"07:00", n:"Metro A · Termini → Ottaviano", cat:"transporte", q:"Ottaviano metro Roma",
+      note:"Lepanto está fechada para obras nessas datas — descer em Ottaviano.", tip:true, leg:"~15 min de metrô"},
+    {t:"07:15", n:"Piazza San Pietro", cat:"vista", q:"Piazza San Pietro Vaticano",
+      note:"Melhor luz e menos gente: basílica, obelisco e colunatas de Bernini."},
+    {t:"07:30", end:"08:30", n:"Cúpula de São Pedro", cat:"marco", q:"Cupola San Pietro Vaticano",
+      note:"OPCIONAL — ingresso ainda não comprado. Abre às 07h00 no verão. Se pularem, fazer a Basílica das 07h30 às 09h00.", tip:true},
+    {t:"08:30", end:"09:30", n:"Basílica de São Pedro", cat:"igreja", q:"Basilica di San Pietro Vaticano",
+      note:"Pietà de Michelangelo, Baldaquino de Bernini, nave central, túmulo de São Pedro e a cúpula vista por dentro."},
+    {t:"09:35", end:"10:05", n:"Castel Sant'Angelo + Ponte", cat:"vista", q:"Castel Sant'Angelo Roma",
+      note:"Somente exterior — não vale gastar 1h30 entrando nesta viagem.", leg:"~12 min a pé"},
+    {t:"10:20", end:"10:50", n:"Lanche · Forno Feliziani", cat:"comida", q:"Forno Feliziani Via Candia Roma",
+      loc:"Via Candia 61", note:"Perto da entrada dos Museus. Pizza al taglio, focaccia, panino, café.", leg:"~12 min a pé"},
+    {t:"11:00", n:"Ir para Viale Vaticano", cat:"transporte", q:"Viale Vaticano ingresso Musei Vaticani", leg:"~7 min a pé"},
+    {t:"11:30", n:"Apresentar voucher — visita guiada", cat:"marco", q:"Musei Vaticani ingresso gruppi",
+      note:"Comparecimento obrigatório 30 min antes. Documento + voucher, procurar o setor de visitas guiadas.", tip:true},
+    {t:"12:00", end:"15:00", n:"MUSEUS VATICANOS — guiada em espanhol", cat:"museu", q:"Musei Vaticani",
+      note:"Pio-Clementino → Galeria dos Candelabros → Tapeçarias → Galeria dos Mapas → Salas de Rafael → Capela Sistina."},
+    {t:"15:15", end:"15:50", n:"Almoço · Trapizzino Trastevere", cat:"comida",
+      q:"Trapizzino Piazza Trilussa Roma", loc:"Piazza Trilussa 46",
+      note:"Pedir 2 sabores diferentes para dividir e provar mais coisas.", leg:"~25 min de metrô/ônibus"},
+    {t:"15:50", end:"16:10", n:"Trastevere", cat:"bairro", q:"Piazza Santa Maria in Trastevere Roma",
+      note:"Piazza Trilussa, ruelas, Piazza e Basílica de Santa Maria in Trastevere."},
+    {t:"16:10", n:"Ponte Sisto", cat:"vista", q:"Ponte Sisto Roma"},
+    {t:"16:20", n:"Campo de' Fiori", cat:"bairro", q:"Campo de' Fiori Roma", leg:"~8 min a pé"},
+    {t:"16:35", end:"16:50", n:"Piazza Navona", cat:"marco", q:"Piazza Navona Roma",
+      note:"Fontana dei Quattro Fiumi e Sant'Agnese in Agone."},
+    {t:"16:55", n:"Chegar ao Pantheon", cat:"transporte", q:"Pantheon Roma", leg:"~5 min a pé"},
+    {t:"17:00", end:"18:00", n:"PANTHEON", cat:"marco", q:"Pantheon Roma",
+      note:"Ingresso já comprado: 17h00–18h00, 2 pessoas, €14.", tip:true},
+    {t:"17:45", end:"18:10", n:"Santa Maria sopra Minerva", cat:"igreja", q:"Santa Maria sopra Minerva Roma",
+      note:"Fica praticamente ao lado do Pantheon."},
+    {t:"18:15", end:"18:30", n:"Templo de Adriano", cat:"marco", q:"Tempio di Adriano Piazza di Pietra Roma"},
+    {t:"18:30", end:"18:45", n:"Piazza Colonna", cat:"marco", q:"Piazza Colonna Roma"},
+    {t:"19:00", end:"20:00", n:"Jantar barato no centro ou perto de Termini", cat:"comida", nomap:true},
+    {t:"20:30", n:"Hotel — dormir cedo", cat:"hotel", q:"IL Sole Roma Termini",
+      note:"Amanhã a saída é às 05h15. Deixar mochila pronta e comprar água/snacks hoje.", tip:true}
+  ]
+},
+{
+  date:"2026-08-12", wd:"Quarta", city:"Nápoles", title:"Roma → Nápoles",
+  sub:"FlixBus 06h20 · Nápoles histórica",
+  stops:[
+    {t:"04:50", n:"Acordar", cat:"hotel", nomap:true},
+    {t:"05:15", n:"Táxi para Roma Tiburtina", cat:"transporte", q:"Roma Tiburtina Bus Station",
+      note:"Sem café da manhã aberto a essa hora — usar o que foi comprado ontem.", tip:true},
+    {t:"05:35", n:"Chegada a Tiburtina", cat:"transporte", q:"Autostazione Tibus Roma Tiburtina",
+      note:"Margem de 35–45 min antes da partida."},
+    {t:"06:20", n:"FlixBus Roma Tiburtina → Napoli", cat:"transporte", q:"Roma Tiburtina Bus Station",
+      leg:"2h35 de ônibus"},
+    {t:"08:55", n:"Chegada a Nápoles (Centrale / FS Park)", cat:"transporte", q:"Napoli Centrale"},
+    {t:"09:10", end:"09:20", n:"GIULY Suites & Rooms — deixar malas", cat:"hotel",
+      q:"GIULY Suites Rooms Napoli", leg:"~10 min a pé"},
+    {t:"09:30", n:"Attanasio — sfogliatelle", cat:"comida", q:"Antico Forno Attanasio Vico Ferrovia Napoli",
+      loc:"Vico Ferrovia 1–4", note:"Sfogliatella riccia, sfogliatella frolla e espresso.", tip:true},
+    {t:"10:00", end:"10:40", n:"Duomo di Napoli", cat:"igreja", q:"Duomo di Napoli",
+      note:"Incluir a Capela de San Gennaro.", leg:"~15 min a pé"},
+    {t:"10:40", end:"11:20", n:"Via dei Tribunali + San Gregorio Armeno", cat:"bairro",
+      q:"Via San Gregorio Armeno Napoli", note:"San Gregorio Armeno é essencial para sentir Nápoles."},
+    {t:"11:30", end:"12:10", n:"Cappella Sansevero — Cristo Velato", cat:"museu",
+      q:"Museo Cappella Sansevero Napoli",
+      note:"INGRESSO AINDA A COMPRAR. Tarifa €8 para 18–26 anos.", tip:true},
+    {t:"12:15", end:"12:45", n:"Piazza San Domenico Maggiore + Spaccanapoli", cat:"bairro",
+      q:"Piazza San Domenico Maggiore Napoli"},
+    {t:"13:00", end:"14:00", n:"Pizza · Antica Pizzeria Di Matteo", cat:"comida",
+      q:"Antica Pizzeria Di Matteo Via dei Tribunali Napoli", loc:"Via dei Tribunali 94",
+      note:"Margherita, marinara, frittatina e pizza fritta."},
+    {t:"14:00", end:"14:45", n:"Caminhar por Spaccanapoli", cat:"bairro", q:"Spaccanapoli Napoli"},
+    {t:"15:00", end:"16:00", n:"Napoli Sotterranea", cat:"museu", q:"Napoli Sotterranea Piazza San Gaetano",
+      note:"INGRESSO AINDA A COMPRAR — reservar este horário.", tip:true},
+    {t:"16:10", end:"16:40", n:"Gesù Nuovo", cat:"igreja", q:"Chiesa del Gesù Nuovo Napoli"},
+    {t:"16:40", end:"17:10", n:"Santa Chiara", cat:"igreja", q:"Complesso Monumentale Santa Chiara Napoli",
+      note:"Se estiverem cansados, ver só a igreja / exterior."},
+    {t:"17:15", end:"17:50", n:"GIULY — check-in, banho, descanso", cat:"hotel", q:"GIULY Suites Rooms Napoli"},
+    {t:"18:10", end:"18:40", n:"Via Toledo + estação Toledo", cat:"vista", q:"Stazione Toledo Napoli",
+      note:"Entrar na estação só para ver o interior."},
+    {t:"18:40", end:"19:20", n:"Quartieri Spagnoli + mural de Maradona", cat:"bairro",
+      q:"Murales Maradona Quartieri Spagnoli Napoli"},
+    {t:"19:30", end:"20:45", n:"Jantar · Trattoria da Nennella", cat:"comida",
+      q:"Trattoria da Nennella Napoli", loc:"Piazza Carità 22",
+      note:"Comida napolitana, ambiente popular, informal e acessível."},
+    {t:"21:00", n:"Galleria Umberto I", cat:"marco", q:"Galleria Umberto I Napoli"},
+    {t:"21:15", n:"Teatro San Carlo — por fora", cat:"marco", q:"Teatro di San Carlo Napoli"},
+    {t:"21:25", end:"21:50", n:"Piazza del Plebiscito", cat:"vista", q:"Piazza del Plebiscito Napoli",
+      note:"À noite fica muito bonita."}
+  ]
+},
+{
+  date:"2026-08-13", wd:"Quinta", city:"Pompeia", title:"Pompeia + Nápoles à beira-mar",
+  sub:"Circumvesuviana 08h05 · Escavações 09h00",
+  stops:[
+    {t:"07:00", n:"Acordar · Supermercato Decò", cat:"mercado", sug:true,
+      q:"Supermercato Decò Corso Umberto I Napoli", loc:"Corso Umberto I — ~5 min a pé do GIULY",
+      note:"Café leve e MUITA água + snacks: em Pompeia quase não há sombra nem onde comprar dentro do parque.", tip:true},
+    {t:"07:40", n:"Sair do GIULY para Porta Nolana", cat:"transporte", q:"Napoli Porta Nolana stazione",
+      leg:"~8 min a pé"},
+    {t:"08:05", n:"Circumvesuviana · Porta Nolana → Pompei Scavi", cat:"transporte",
+      q:"Napoli Porta Nolana stazione", note:"Destino: Pompei Scavi – Villa dei Misteri.", leg:"32 min de trem"},
+    {t:"08:37", n:"Chegada a Pompei Scavi", cat:"transporte", q:"Pompei Scavi Villa dei Misteri stazione",
+      note:"A estação fica junto da Porta Marina."},
+    {t:"08:50", n:"Entrada / fila", cat:"marco", q:"Porta Marina Pompei Scavi",
+      note:"O parque usa faixas de entrada no verão e limite diário de visitantes.", tip:true},
+    {t:"09:00", end:"10:15", n:"Porta Marina → Fórum → Termas do Fórum", cat:"marco",
+      q:"Foro di Pompei Scavi",
+      note:"Porta Marina → Basílica → Fórum → Templo de Apolo → Templo de Júpiter → Termas do Fórum."},
+    {t:"10:15", end:"11:00", n:"Casa do Fauno + ruas centrais", cat:"marco", q:"Casa del Fauno Pompei"},
+    {t:"11:00", end:"12:00", n:"Villa dos Mistérios", cat:"marco", q:"Villa dei Misteri Pompei",
+      note:"Só se o ingresso for Pompei+ (inclui Villa dos Mistérios, Villa de Diomedes e Villa Regina/Boscoreale).", tip:true},
+    {t:"12:00", end:"12:30", n:"Pausa — água e lanche", cat:"comida", nomap:true},
+    {t:"12:30", end:"13:30", n:"Lupanar → Via dell'Abbondanza → Termas Estabianas", cat:"marco",
+      q:"Via dell'Abbondanza Pompei"},
+    {t:"13:30", end:"14:20", n:"Teatro Grande → Odeon → Templo de Ísis", cat:"marco",
+      q:"Teatro Grande Pompei Scavi"},
+    {t:"14:20", end:"15:15", n:"Jardim dos Fugitivos + Grande Palestra", cat:"marco",
+      q:"Orto dei Fuggiaschi Pompei",
+      note:"O Anfiteatro é o primeiro ponto a cortar se estiver muito quente ou se estiverem cansados — fica mais afastado.", tip:true},
+    {t:"15:30", n:"Começar o retorno", cat:"transporte", q:"Pompei Scavi Villa dei Misteri stazione"},
+    {t:"16:05", n:"Trem Pompei Scavi → Napoli Porta Nolana", cat:"transporte",
+      q:"Pompei Scavi Villa dei Misteri stazione",
+      note:"Se perderem: 16h42 → 17h18.", leg:"33 min de trem"},
+    {t:"17:00", n:"GIULY — banho e descanso rápido", cat:"hotel", q:"GIULY Suites Rooms Napoli"},
+    {t:"18:00", n:"Castel Nuovo — exterior", cat:"marco", q:"Castel Nuovo Maschio Angioino Napoli"},
+    {t:"18:25", n:"Galleria Umberto I", cat:"marco", q:"Galleria Umberto I Napoli"},
+    {t:"18:40", n:"Teatro San Carlo", cat:"marco", q:"Teatro di San Carlo Napoli"},
+    {t:"18:50", end:"19:20", n:"Piazza del Plebiscito", cat:"vista", q:"Piazza del Plebiscito Napoli",
+      note:"Palácio Real por fora e Basílica San Francesco di Paola."},
+    {t:"19:20", end:"19:45", n:"Via Chiaia", cat:"bairro", q:"Via Chiaia Napoli"},
+    {t:"19:45", end:"20:30", n:"Lungomare", cat:"vista", q:"Lungomare Caracciolo Napoli",
+      note:"Comer pizza fritta ou um panino no caminho — evitar os restaurantes de frente para o mar e a taxa turística.", tip:true},
+    {t:"20:30", end:"21:00", n:"Castel dell'Ovo + Borgo Marinari", cat:"vista", q:"Castel dell'Ovo Napoli"}
+  ]
+},
+{
+  date:"2026-08-14", wd:"Sexta", city:"Roma", title:"Nápoles → última tarde em Roma",
+  sub:"Italo 13h03 · Trevi ao entardecer",
+  stops:[
+    {t:"08:00", n:"Acordar · bar de balcão perto do GIULY", cat:"comida", sug:true,
+      q:"bar caffè Corso Umberto I Napoli", loc:"Corso Umberto I — ~4 min a pé",
+      note:"Café curto: o almoço forte é a pizza da Michele às 10h30.", tip:true},
+    {t:"08:30", n:"Check-out — deixar malas no GIULY", cat:"hotel", q:"GIULY Suites Rooms Napoli"},
+    {t:"08:45", end:"09:20", n:"Porta Capuana", cat:"marco", q:"Porta Capuana Napoli", leg:"~12 min a pé"},
+    {t:"09:20", end:"09:50", n:"Santa Caterina a Formiello", cat:"igreja",
+      q:"Chiesa Santa Caterina a Formiello Napoli"},
+    {t:"10:30", n:"L'Antica Pizzeria da Michele", cat:"comida", q:"L'Antica Pizzeria da Michele Napoli",
+      loc:"Via Cesare Sersale 1", note:"Abre às 10h30 — chegar na abertura reduz muito a fila.", tip:true},
+    {t:"11:20", n:"Pegar as malas no GIULY", cat:"hotel", q:"GIULY Suites Rooms Napoli"},
+    {t:"11:50", end:"12:00", n:"Napoli Centrale", cat:"transporte", q:"Napoli Centrale"},
+    {t:"13:03", n:"Italo · Napoli Centrale → Roma Termini", cat:"transporte", q:"Napoli Centrale",
+      leg:"1h12 de trem"},
+    {t:"14:15", n:"Chegada a Roma Termini — guarda-volumes", cat:"transporte", q:"Deposito bagagli Roma Termini",
+      note:"Deixar as malas no guarda-volumes antes de sair.", tip:true},
+    {t:"14:45", n:"Metro A · Termini → Flaminio", cat:"transporte", q:"Flaminio metro Roma", leg:"~12 min de metrô"},
+    {t:"15:05", end:"15:35", n:"Piazza del Popolo", cat:"marco", q:"Piazza del Popolo Roma"},
+    {t:"15:35", end:"16:00", n:"Terraço do Pincio", cat:"vista", q:"Terrazza del Pincio Roma",
+      note:"Um dos melhores mirantes gratuitos de Roma."},
+    {t:"16:00", end:"17:00", n:"Villa Borghese — jardins", cat:"bairro", q:"Villa Borghese Roma",
+      note:"Só os jardins. Não entrar na Galleria Borghese nesta viagem."},
+    {t:"17:15", end:"17:45", n:"Piazza di Spagna", cat:"marco", q:"Piazza di Spagna Roma",
+      note:"Escadaria, Barcaccia e Via dei Condotti.", leg:"~15 min a pé"},
+    {t:"18:00", end:"18:40", n:"FONTANA DI TREVI", cat:"marco", q:"Fontana di Trevi Roma",
+      note:"O maior símbolo de Roma guardado para o fim da viagem.", leg:"~10 min a pé"},
+    {t:"18:45", end:"19:30", n:"Jantar · Pastificio Guerra", cat:"comida", q:"Pastificio Guerra Via della Croce Roma",
+      loc:"Via della Croce 8", note:"Perto da Piazza di Spagna, econômico, funciona até 21h."},
+    {t:"19:45", n:"Metro para Termini", cat:"transporte", q:"Roma Termini"},
+    {t:"20:00", n:"Retirar as malas", cat:"transporte", q:"Deposito bagagli Roma Termini"},
+    {t:"20:15", end:"20:45", n:"Leonardo Express Termini → FCO", cat:"transporte", q:"Roma Termini",
+      note:"LIMITE: estar dentro de um Leonardo Express até 20h45.", tip:true, leg:"32 min de trem"},
+    {t:"21:20", n:"Chegada a Fiumicino", cat:"transporte", q:"Aeroporto di Roma Fiumicino"},
+    {t:"21:40", n:"Check-in no hotel em Fiumicino", cat:"hotel", q:"hotel Fiumicino aeroporto",
+      note:"HOSPEDAGEM AINDA A RESERVAR — recepção 24h, 10–15 min dos terminais, transfer de madrugada.", tip:true}
+  ]
+},
+{
+  date:"2026-08-15", wd:"Sábado", city:"Fiumicino", title:"Volta a Bordeaux",
+  sub:"Voo 06h40",
+  stops:[
+    {t:"03:45", n:"Acordar", cat:"hotel", nomap:true},
+    {t:"04:00", end:"04:15", n:"Transfer / táxi para FCO", cat:"transporte", q:"Aeroporto di Roma Fiumicino"},
+    {t:"04:30", n:"Chegar ao Terminal 3", cat:"transporte", q:"Terminal 3 Aeroporto Fiumicino",
+      note:"Cerca de 2h10 antes do voo."},
+    {t:"06:40", n:"Voo Roma FCO → Bordeaux BOD", cat:"voo", nomap:true},
+    {t:"08:55", n:"Chegada a Bordeaux", cat:"voo", nomap:true}
+  ]
+}
+];
+
+/* ================================================================
+   ÍCONES — conjunto de linha próprio (SVG, sem dependências, sem emoji)
+   ================================================================ */
+function svgIcon(inner, vb){
+  return `<svg viewBox="${vb||'0 0 24 24'}" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">${inner}</svg>`;
+}
+const ICON = {
+  voo: svgIcon('<path d="M3 11l17-8-6 17-3-7-8-2z"/><path d="M14 13l-4 4"/>'),
+  transporte: svgIcon('<path d="M4 12h14"/><path d="M13 6l6 6-6 6"/>'),
+  marco: svgIcon('<path d="M4 9h16l-8-6-8 6z"/><path d="M6 9v12M18 9v12M9 9v12M15 9v12"/><path d="M4 21h16"/>'),
+  museu: svgIcon('<rect x="3" y="4" width="18" height="16" rx="1.5"/><circle cx="8.5" cy="9.5" r="1.3" fill="currentColor" stroke="none"/><path d="M3.5 16l5-5 4 4 3-3 6 6"/>'),
+  igreja: svgIcon('<path d="M12 3v9M8.5 6.5h7"/><path d="M6 21V13a6 6 0 0 1 12 0v8"/><path d="M4 21h16"/>'),
+  comida: svgIcon('<path d="M7 2v6a1 1 0 0 0 2 0V2"/><path d="M8 8v13"/><path d="M16 2c-1.3 0-2 2-2 5s1 4 2 4v10"/>'),
+  mercado: svgIcon('<path d="M4 9h16l-1.6 9.8a2 2 0 0 1-2 1.7H7.6a2 2 0 0 1-2-1.7L4 9z"/><path d="M8 9V7a4 4 0 0 1 8 0v2"/>'),
+  hotel: svgIcon('<path d="M3 18v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6"/><path d="M3 21v-3M21 21v-3"/><path d="M3 12V7a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v3"/>'),
+  bairro: svgIcon('<path d="M12 21s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.2"/>'),
+  vista: svgIcon('<circle cx="17" cy="6.3" r="2.1"/><path d="M3 19l6-8 4 5 3-4 5 7z"/>')
+};
+const CATNAME = {voo:"Voo",transporte:"Transporte",marco:"Monumento",museu:"Museu",
+  igreja:"Igreja",comida:"Comida",mercado:"Mercado",hotel:"Hospedagem",
+  bairro:"Bairro",vista:"Vista"};
+
+/* Ícones de navegação e ações */
+const NAVICON = {
+  hoje: svgIcon('<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 9h18"/><path d="M8 3v4M16 3v4"/><circle cx="12" cy="15" r="2" fill="currentColor" stroke="none"/>'),
+  roteiro: svgIcon('<path d="M9 6h12M9 12h12M9 18h12"/><circle cx="4" cy="6" r="1.3" fill="currentColor" stroke="none"/><circle cx="4" cy="12" r="1.3" fill="currentColor" stroke="none"/><circle cx="4" cy="18" r="1.3" fill="currentColor" stroke="none"/>'),
+  orcamento: svgIcon('<circle cx="12" cy="12" r="9"/><path d="M15.5 8.3a5 5 0 1 0 0 7.4"/><path d="M6.5 11h6M6.5 13.5h5"/>'),
+  mapa: svgIcon('<circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 6.6-6.6 2 2-6.6 6.6-2z"/>')
+};
+const ICON_SHARE = svgIcon('<circle cx="6" cy="12" r="2.2"/><circle cx="18" cy="5.5" r="2.2"/><circle cx="18" cy="18.5" r="2.2"/><path d="M8 10.8l7.6-4.5M8 13.2l7.6 4.5"/>');
+const ICON_CAL = svgIcon('<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 9h18"/><path d="M8 3v4M16 3v4"/>');
+const ICON_COPY = svgIcon('<rect x="4" y="4" width="13" height="13" rx="2"/><path d="M9 15v3a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2v-7a2 2 0 0 0-2-2h-3"/>');
+const SUN = svgIcon('<circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.6M12 19.4V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.6M19.4 12H22M4.2 19.8l1.8-1.8M18 6l1.8-1.8"/>');
+const MOON = svgIcon('<path d="M20 14.3A8.5 8.5 0 1 1 9.7 4a7 7 0 0 0 10.3 10.3z"/>');
+
+/* Glifos-assinatura por cidade — grandes, usados no cabeçalho de cada dia */
+const HERO = {
+  "Roma": svgIcon('<path d="M15 78V55a10 10 0 0 1 20 0v23"/><path d="M38 78V50a12 12 0 0 1 24 0v28"/><path d="M65 78V55a10 10 0 0 1 20 0v23"/><path d="M10 78h80"/>', "0 0 100 100"),
+  "Nápoles": svgIcon('<path d="M50 22l16 36H34z"/><path d="M43 33l3.5-5 3.5 5 3.5-5 3.5 5"/><path d="M8 78c14-9 28-9 42 0s28 9 42 0"/>', "0 0 100 100"),
+  "Pompeia": svgIcon('<path d="M20 78V38M20 34v-6"/><path d="M45 78V28"/><path d="M70 78V44M70 40v-8"/><path d="M10 78h80"/>', "0 0 100 100"),
+  "Fiumicino": svgIcon('<path d="M10 66l72-34-25 72-13-30-34-8z"/>', "0 0 100 100")
+};
+
+const BCATS = [["transporte","Transporte"],["comida","Comida"],["ingressos","Ingressos"],["extra","Extra"]];
+/* Estimativas pré-preenchidas com os custos já conhecidos do roteiro */
+const BSEED = {
+  "2026-08-09":{transporte:28},
+  "2026-08-11":{ingressos:14},
+  "2026-08-12":{ingressos:16}
+};
+
+/* ================================================================
+   2. PERSISTÊNCIA
+   Funciona tanto no arquivo aberto direto no navegador (localStorage)
+   quanto dentro de um Artifact do Claude.ai (window.storage).
+   ================================================================ */
+const KEY = "italia2026";
+let STATE = {done:{}, budget:{}, notes:{}};
+
+const store = {
+  async get(){
+    if(window.storage){
+      try{ const r = await window.storage.get(KEY); return r ? r.value : null; }catch(e){}
+    }
+    try{ return localStorage.getItem(KEY); }catch(e){ return null; }
+  },
+  async set(v){
+    if(window.storage){
+      try{ await window.storage.set(KEY, v); return; }catch(e){}
+    }
+    try{ localStorage.setItem(KEY, v); }catch(e){}
+  }
+};
+
+async function loadState(){
+  const raw = await store.get();
+  if(raw){ try{ STATE = Object.assign({done:{},budget:{},notes:{}}, JSON.parse(raw)); }catch(e){} }
+}
+let saveTimer;
+function saveState(){
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(()=> store.set(JSON.stringify(STATE)), 250);
+}
+
+/* ================================================================
+   3. TEMPO — estados de cada parada
+   ================================================================ */
+const now = () => new Date();
+function stopDate(day, hhmm){
+  const [Y,M,D] = day.date.split("-").map(Number);
+  const [h,m] = hhmm.split(":").map(Number);
+  return new Date(Y, M-1, D, h, m, 0, 0);
+}
+function key(day, i){ return day.date + "#" + i; }
+function isDone(day, i){ return !!STATE.done[key(day,i)]; }
+
+/* Estado temporal: past | now | next | late | future */
+function stopState(day, i){
+  const s = day.stops[i];
+  const start = stopDate(day, s.t);
+  const end = s.end ? stopDate(day, s.end) : new Date(start.getTime() + 30*60000);
+  const t = now();
+  if(t >= start && t <= end) return "now";
+  if(t > end) return isDone(day,i) ? "past" : "late";
+  // futuro: a próxima não concluída do dia é "next"
+  for(let j=0;j<day.stops.length;j++){
+    const st = stopDate(day, day.stops[j].t);
+    if(st > t && !isDone(day,j)) return j===i ? "next" : "future";
+  }
+  return "future";
+}
+function todayIndex(){
+  const t = now(), iso = t.getFullYear()+"-"+String(t.getMonth()+1).padStart(2,"0")+"-"+String(t.getDate()).padStart(2,"0");
+  const exact = TRIP.findIndex(d => d.date === iso);
+  if(exact >= 0) return exact;
+  if(iso < TRIP[0].date) return 0;
+  return TRIP.length - 1;
+}
+function fmtDate(iso){
+  const [Y,M,D] = iso.split("-");
+  const MES = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+  return D + " " + MES[+M-1];
+}
+function mapsURL(day, s){
+  const q = s.q || (s.n + " " + (CITY_Q[day.city] || day.city));
+  return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q);
+}
+
+/* ================================================================
+   4. RENDERIZAÇÃO
+   ================================================================ */
+function renderStops(day){
+  return '<div class="rail">' + day.stops.map((s,i)=>{
+    const st = stopState(day,i), done = isDone(day,i);
+    const dur = s.end ? s.end : "";
+    const badge = done ? "" :
+      st==="now"  ? '<span class="badge now">agora</span>' :
+      st==="next" ? '<span class="badge next">próxima</span>' :
+      st==="late" ? '<span class="badge late">atrasada</span>' : "";
+    return `
+    <div class="stop ${done?"is-done":""}" data-state="${st}">
+      <div class="marker">
+        <div class="mk-time">${s.t}</div>
+        ${dur?`<div class="mk-dur">${dur}</div>`:""}
+      </div>
+      <div class="dot"></div>
+      <div class="card">
+        <div class="cat"><span>${ICON[s.cat]||ICON.marco}</span>${CATNAME[s.cat]||""}${badge}</div>
+        <h3>${s.n}${s.sug?'<span class="sugg">sugestão</span>':""}</h3>
+        ${s.loc?`<div class="loc">${s.loc}</div>`:""}
+        ${s.note?`<div class="note ${s.tip?"tip":""}">${s.note}</div>`:""}
+        <div class="actions">
+          <button class="btn done" data-done="${key(day,i)}" aria-pressed="${done}">
+            ${done?"✓ Concluído":"Marcar concluído"}
+          </button>
+          ${s.nomap?"":`<a class="btn maps" href="${mapsURL(day,s)}" target="_blank" rel="noopener">${NAVICON.mapa} Maps</a>
+          <button class="btn icon-only" data-copy="${escAttr(s.loc||s.q||s.n)}" aria-label="Copiar endereço">${ICON_COPY}</button>`}
+        </div>
+      </div>
+    </div>
+    ${s.leg?`<div class="leg">${s.leg}</div>`:""}`;
+  }).join("") + '</div>';
+}
+
+function renderDay(day){
+  const idx = TRIP.indexOf(day);
+  const total = day.stops.length;
+  const done = day.stops.filter((_,i)=>isDone(day,i)).length;
+  const pct = total ? Math.round(done/total*100) : 0;
+  return `
+    <div class="dayhero">
+      <div class="hero-art">${HERO[day.city]||HERO["Roma"]}</div>
+      <div class="dh-inner">
+        <div class="dh-meta">${day.wd} · ${fmtDate(day.date)} · ${day.city}</div>
+        <h2>${day.title}</h2>
+        ${day.sub?`<div class="dh-tag">${day.sub}</div>`:""}
+        <div class="progress">
+          <div class="bar"><i style="width:${pct}%"></i></div>
+          <div class="lbl"><span>${done} de ${total} concluídos</span><span>${pct}%</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="day-actions">
+      <button class="btn" data-share="${idx}">${ICON_SHARE} Compartilhar</button>
+      <button class="btn" data-ics="${idx}">${ICON_CAL} Calendário</button>
+    </div>
+    ${renderStops(day)}
+    <div class="notes">
+      <label for="nt-${day.date}">Anotações do dia</label>
+      <textarea id="nt-${day.date}" data-note="${day.date}"
+        placeholder="O que aconteceu, o que comeram, o que mudar amanhã…">${STATE.notes[day.date]||""}</textarea>
+    </div>`;
+}
+
+function renderTripTrack(){
+  const tIdx = todayIndex();
+  return '<div class="triptrack">' + TRIP.map((d,i)=>{
+    const total = d.stops.length;
+    const done = d.stops.filter((_,j)=>isDone(d,j)).length;
+    const pct = total ? Math.round(done/total*100) : 0;
+    return `<button class="tp-item ${i===tIdx?"is-today":""}" data-tripday="${i}" aria-label="${d.wd} ${fmtDate(d.date)}, ${pct}% concluído">
+      <div class="tp-bar"><i style="height:${pct}%"></i></div>
+      <div class="tp-lbl">${fmtDate(d.date).split(" ")[0]}</div>
+    </button>`;
+  }).join("") + '</div>';
+}
+
+function renderHoje(){
+  const idx = todayIndex(), day = TRIP[idx];
+  const t = now(), iso = t.getFullYear()+"-"+String(t.getMonth()+1).padStart(2,"0")+"-"+String(t.getDate()).padStart(2,"0");
+  const off = iso !== day.date
+    ? `<div class="note tip" style="border-left:2px solid var(--naples);padding-left:10px;margin-bottom:16px;font-size:13.5px">
+         Hoje não é um dia da viagem. Mostrando o dia mais próximo do roteiro.</div>` : "";
+  document.getElementById("view-hoje").innerHTML = renderTripTrack() + off + renderDay(day);
+}
+
+function renderRoteiro(){
+  const bar = document.getElementById("daybar");
+  const tIdx = todayIndex();
+  bar.innerHTML = TRIP.map((d,i)=>`
+    <button class="daychip ${i===tIdx?"is-today":""}" role="tab"
+      aria-selected="${i===selDay}" data-day="${i}">
+      <div class="dc-wd">${d.wd.slice(0,3)}</div>
+      <div class="dc-d">${fmtDate(d.date)}</div>
+      <div class="dc-city">${d.city}</div>
+    </button>`).join("");
+  document.getElementById("dayContent").innerHTML = renderDay(TRIP[selDay]);
+}
+
+function bval(date, cat, kind){
+  const k = date+"#"+cat+"#"+kind;
+  if(STATE.budget[k] !== undefined) return STATE.budget[k];
+  if(kind==="est" && BSEED[date] && BSEED[date][cat] !== undefined) return BSEED[date][cat];
+  return "";
+}
+function renderOrcamento(){
+  let estT=0, realT=0;
+  TRIP.forEach(d => BCATS.forEach(([c])=>{
+    estT += parseFloat(bval(d.date,c,"est"))||0;
+    realT += parseFloat(bval(d.date,c,"real"))||0;
+  }));
+  const diff = realT - estT;
+  const diffTxt = realT===0 ? "Ainda sem gastos reais lançados."
+    : diff > 0 ? `€${diff.toFixed(2)} acima do previsto.`
+    : diff < 0 ? `€${Math.abs(diff).toFixed(2)} abaixo do previsto.`
+    : "Exatamente no previsto.";
+
+  const days = TRIP.map(d=>{
+    let dE=0,dR=0;
+    BCATS.forEach(([c])=>{dE+=parseFloat(bval(d.date,c,"est"))||0; dR+=parseFloat(bval(d.date,c,"real"))||0;});
+    return `
+    <div class="bday">
+      <h4>${fmtDate(d.date)} · ${d.city}<em>est €${dE.toFixed(0)} · real €${dR.toFixed(0)}</em></h4>
+      <div class="bhead"><span>Categoria</span><span>Previsto</span><span>Real</span></div>
+      ${BCATS.map(([c,lbl])=>`
+        <div class="brow">
+          <div class="bk">${lbl}</div>
+          <input type="number" inputmode="decimal" min="0" step="0.5" placeholder="0"
+            data-b="${d.date}#${c}#est" value="${bval(d.date,c,"est")}">
+          <input type="number" inputmode="decimal" min="0" step="0.5" placeholder="0"
+            data-b="${d.date}#${c}#real" value="${bval(d.date,c,"real")}">
+        </div>`).join("")}
+    </div>`;
+  }).join("");
+
+  document.getElementById("view-orcamento").innerHTML = `
+    <div class="total">
+      <div class="t-lbl">Total da viagem · euros</div>
+      <div class="t-grid">
+        <div class="t-val">€${estT.toFixed(0)}<small>Previsto</small></div>
+        <div class="t-val" style="color:var(--naples)">€${realT.toFixed(0)}<small>Real</small></div>
+      </div>
+      <div class="t-diff">${diffTxt}</div>
+    </div>
+    ${days}
+    <div class="datafoot">
+      <button class="btn" id="expBtn">Exportar backup</button>
+      <button class="btn" id="impBtn">Importar backup</button>
+      <input type="file" id="impFile" accept="application/json" hidden>
+      <div class="hint">O backup guarda paradas concluídas, gastos e anotações num arquivo JSON — útil se trocarem de aparelho.</div>
+    </div>`;
+}
+
+function renderMapa(){
+  const groups = {};
+  TRIP.forEach(d => d.stops.forEach((s,i)=>{
+    if(s.nomap) return;
+    (groups[d.city] = groups[d.city] || []).push({d,s,i});
+  }));
+  document.getElementById("view-mapa").innerHTML = Object.entries(groups).map(([city,items])=>`
+    <div class="mapgroup">
+      <h4>${city}</h4>
+      <div class="mg-sub">${items.length} pontos</div>
+      ${items.map(({d,s,i})=>`
+        <a class="mlink ${isDone(d,i)?"is-done":""}" href="${mapsURL(d,s)}" target="_blank" rel="noopener">
+          <span>${ICON[s.cat]||ICON.marco}</span>
+          <span class="ml-n">${s.n}<small>${fmtDate(d.date)} · ${s.t}${s.loc?" · "+s.loc:""}</small></span>
+          <span class="ml-go">Abrir</span>
+        </a>`).join("")}
+    </div>`).join("");
+}
+
+/* Contagem regressiva para a próxima parada não concluída */
+function renderCountdown(){
+  const el = document.getElementById("countdown");
+  const day = TRIP[todayIndex()];
+  const t = now();
+  const iso = t.getFullYear()+"-"+String(t.getMonth()+1).padStart(2,"0")+"-"+String(t.getDate()).padStart(2,"0");
+  if(iso !== day.date){ el.hidden = true; return; }
+
+  let next = null, late = null;
+  day.stops.forEach((s,i)=>{
+    if(isDone(day,i)) return;
+    const st = stopDate(day,s.t);
+    if(st > t){ if(!next) next = {s,st}; }
+    else { const end = s.end ? stopDate(day,s.end) : new Date(st.getTime()+30*60000);
+           if(t > end) late = {s,st}; }
+  });
+
+  if(late && !next){
+    el.hidden = false; el.classList.add("is-late");
+    document.getElementById("cdTime").textContent = "!";
+    document.getElementById("cdName").textContent = late.s.n;
+    document.getElementById("cdSub").textContent = "Estava previsto às " + late.s.t + " e não foi marcado";
+    return;
+  }
+  if(!next){ el.hidden = true; return; }
+
+  const ms = next.st - t, mins = Math.floor(ms/60000);
+  const h = Math.floor(mins/60), m = mins%60;
+  el.hidden = false;
+  el.classList.toggle("is-late", !!late);
+  document.getElementById("cdTime").textContent = h > 0 ? `${h}h${String(m).padStart(2,"0")}` : `${m}min`;
+  document.getElementById("cdName").textContent = next.s.n;
+  document.getElementById("cdSub").textContent = late
+    ? "Próxima às " + next.s.t + " · há paradas atrasadas"
+    : "Próxima às " + next.s.t;
+}
+
+/* ================================================================
+   5. AÇÕES — compartilhar, calendário (.ics), copiar, avisos
+   ================================================================ */
+function escAttr(s){ return String(s||"").replace(/"/g,"&quot;"); }
+
+let toastTimer;
+function toast(msg){
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>el.classList.remove("show"), 1900);
+}
+
+function copyAddr(text){
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(text).then(()=>toast("Endereço copiado")).catch(()=>toast("Não foi possível copiar"));
+  } else { toast("Cópia não suportada neste navegador"); }
+}
+
+function shareText(day){
+  return `${day.title} — ${day.wd}, ${fmtDate(day.date)}\n\n` +
+    day.stops.map(s=>`${s.t} · ${s.n}`).join("\n");
+}
+function shareDay(idx){
+  const day = TRIP[idx], text = shareText(day);
+  if(navigator.share){
+    navigator.share({title:day.title, text}).catch(()=>{});
+  } else if(navigator.clipboard){
+    navigator.clipboard.writeText(text).then(()=>toast("Roteiro do dia copiado")).catch(()=>toast("Não foi possível compartilhar"));
+  } else { toast("Compartilhamento não suportado"); }
+}
+
+function pad2(n){ return String(n).padStart(2,"0"); }
+function addMinutes(hhmm, mins){
+  const [h,m] = hhmm.split(":").map(Number);
+  const d = new Date(2000,0,1,h,m+mins);
+  return pad2(d.getHours())+":"+pad2(d.getMinutes());
+}
+function icsDate(day, hhmm){
+  const [Y,M,D] = day.date.split("-");
+  const [h,m] = hhmm.split(":");
+  return `${Y}${M}${D}T${pad2(h)}${pad2(m)}00`;
+}
+function icsEscape(s){ return String(s||"").replace(/[\\,;]/g, x=>"\\"+x).replace(/\n/g,"\\n"); }
+function buildICS(day){
+  const L = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Roteiro Italia 2026//PT","CALSCALE:GREGORIAN"];
+  day.stops.forEach((s,i)=>{
+    const endT = s.end || addMinutes(s.t, 30);
+    L.push("BEGIN:VEVENT");
+    L.push("UID:"+day.date+"-"+i+"@roteiro-italia");
+    L.push("DTSTART:"+icsDate(day,s.t));
+    L.push("DTEND:"+icsDate(day,endT));
+    L.push("SUMMARY:"+icsEscape(s.n));
+    if(s.loc||s.q) L.push("LOCATION:"+icsEscape(s.loc||s.q));
+    if(s.note) L.push("DESCRIPTION:"+icsEscape(s.note));
+    L.push("END:VEVENT");
+  });
+  L.push("END:VCALENDAR");
+  return L.join("\r\n");
+}
+function downloadICS(idx){
+  const day = TRIP[idx];
+  const blob = new Blob([buildICS(day)], {type:"text/calendar;charset=utf-8"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "roteiro-"+day.date+".ics";
+  a.click(); URL.revokeObjectURL(a.href);
+  toast("Arquivo de calendário baixado");
+}
+
+/* ================================================================
+   6. ESTADO DA INTERFACE
+   ================================================================ */
+let selDay = todayIndex();
+let curView = "hoje";
+
+function refresh(){
+  if(curView==="hoje") renderHoje();
+  if(curView==="roteiro") renderRoteiro();
+  if(curView==="orcamento") renderOrcamento();
+  if(curView==="mapa") renderMapa();
+  renderCountdown();
+}
+function switchView(v){
+  curView = v;
+  document.querySelectorAll(".view").forEach(s=>s.classList.toggle("active", s.id==="view-"+v));
+  document.querySelectorAll("nav button").forEach(b=>b.setAttribute("aria-selected", b.dataset.view===v));
+  refresh();
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+/* Delegação de eventos — a interface é re-renderizada com frequência */
+document.addEventListener("click", e=>{
+  const nav = e.target.closest("nav button");
+  if(nav){ switchView(nav.dataset.view); return; }
+
+  const dc = e.target.closest(".daychip");
+  if(dc){ selDay = +dc.dataset.day; renderRoteiro(); return; }
+
+  const dn = e.target.closest("[data-done]");
+  if(dn){
+    const k = dn.dataset.done;
+    if(STATE.done[k]) delete STATE.done[k]; else STATE.done[k] = 1;
+    saveState(); refresh(); return;
+  }
+
+  const tp = e.target.closest("[data-tripday]");
+  if(tp){ selDay = +tp.dataset.tripday; switchView("roteiro"); return; }
+
+  const sh = e.target.closest("[data-share]");
+  if(sh){ shareDay(+sh.dataset.share); return; }
+
+  const ic = e.target.closest("[data-ics]");
+  if(ic){ downloadICS(+ic.dataset.ics); return; }
+
+  const cp = e.target.closest("[data-copy]");
+  if(cp){ copyAddr(cp.dataset.copy); return; }
+
+  if(e.target.id==="expBtn"){ exportBackup(); return; }
+  if(e.target.id==="impBtn"){ document.getElementById("impFile").click(); return; }
+});
+
+/* Deslizar entre dias na aba Roteiro */
+(function swipeSetup(){
+  let x0=null, y0=null;
+  const zone = document.getElementById("view-roteiro");
+  zone.addEventListener("touchstart", e=>{
+    const tt = e.touches[0]; x0 = tt.clientX; y0 = tt.clientY;
+  }, {passive:true});
+  zone.addEventListener("touchend", e=>{
+    if(x0===null) return;
+    const tt = e.changedTouches[0];
+    const dx = tt.clientX - x0, dy = tt.clientY - y0;
+    x0 = null;
+    if(Math.abs(dx) < 62 || Math.abs(dy) > 70) return;
+    if(dx < 0 && selDay < TRIP.length-1){ selDay++; renderRoteiro(); }
+    else if(dx > 0 && selDay > 0){ selDay--; renderRoteiro(); }
+  }, {passive:true});
+})();
+
+document.addEventListener("input", e=>{
+  if(e.target.dataset.note !== undefined){
+    STATE.notes[e.target.dataset.note] = e.target.value; saveState();
+  }
+  if(e.target.dataset.b !== undefined){
+    const k = e.target.dataset.b;
+    if(e.target.value==="") delete STATE.budget[k]; else STATE.budget[k] = e.target.value;
+    saveState();
+    // Atualiza só os totais, para não perder o foco do campo em edição
+    if(curView==="orcamento") updateBudgetTotals();
+  }
+});
+
+function updateBudgetTotals(){
+  let estT=0, realT=0;
+  TRIP.forEach(d => BCATS.forEach(([c])=>{
+    estT += parseFloat(bval(d.date,c,"est"))||0;
+    realT += parseFloat(bval(d.date,c,"real"))||0;
+  }));
+  const vals = document.querySelectorAll(".total .t-val");
+  if(vals[0]) vals[0].childNodes[0].nodeValue = "€"+estT.toFixed(0);
+  if(vals[1]) vals[1].childNodes[0].nodeValue = "€"+realT.toFixed(0);
+  const diff = realT - estT;
+  const d = document.querySelector(".t-diff");
+  if(d) d.textContent = realT===0 ? "Ainda sem gastos reais lançados."
+    : diff > 0 ? `€${diff.toFixed(2)} acima do previsto.`
+    : diff < 0 ? `€${Math.abs(diff).toFixed(2)} abaixo do previsto.`
+    : "Exatamente no previsto.";
+}
+
+/* Backup */
+function exportBackup(){
+  const blob = new Blob([JSON.stringify(STATE,null,2)],{type:"application/json"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "roteiro-italia-backup.json";
+  a.click(); URL.revokeObjectURL(a.href);
+}
+document.addEventListener("change", e=>{
+  if(e.target.id!=="impFile" || !e.target.files[0]) return;
+  const fr = new FileReader();
+  fr.onload = () => {
+    try{
+      STATE = Object.assign({done:{},budget:{},notes:{}}, JSON.parse(fr.result));
+      saveState(); refresh();
+    }catch(err){ alert("Arquivo de backup inválido."); }
+  };
+  fr.readAsText(e.target.files[0]);
+});
+
+/* Tema: automático pelo horário local, com alternância manual */
+function autoTheme(){ const h = now().getHours(); return (h>=19||h<7) ? "dark" : "light"; }
+let manualTheme = null;
+function applyTheme(){
+  const th = manualTheme || autoTheme();
+  document.documentElement.dataset.theme = th;
+  document.getElementById("themeBtn").innerHTML = th==="dark" ? MOON : SUN;
+}
+document.getElementById("themeBtn").addEventListener("click", ()=>{
+  manualTheme = (document.documentElement.dataset.theme==="dark") ? "light" : "dark";
+  applyTheme();
+});
+
+/* Preenche os ícones fixos (menu inferior) uma única vez */
+function paintStaticIcons(){
+  document.querySelectorAll("nav button").forEach(b=>{
+    b.querySelector("i").innerHTML = NAVICON[b.dataset.view] || "";
+  });
+}
+
+/* ================================================================
+   7. INICIALIZAÇÃO
+   ================================================================ */
+(async function init(){
+  paintStaticIcons();
+  await loadState();
+  applyTheme();
+  selDay = todayIndex();
+  switchView("hoje");
+  // Atualiza estados temporais e contagem regressiva a cada 30 s
+  setInterval(()=>{ applyTheme(); refresh(); }, 30000);
+})();
+</script>
+</body>
+</html>
